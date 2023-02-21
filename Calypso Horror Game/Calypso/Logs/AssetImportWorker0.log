@@ -385,3 +385,75 @@ System memory in use after: 247.9 MB.
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3636.
 Total: 1.789917 ms (FindLiveObjects: 0.232333 ms CreateObjectMapping: 0.066709 ms MarkObjects: 1.467084 ms  DeleteObjects: 0.022917 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 388.803982 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.037927 seconds
+  Import took 0.063654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.757752 seconds.
+  path: Assets/_Course Library/Scripts
+  artifactKey: Guid(84c8d5c187f7f5644bb628e32880bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Scripts using Guid(84c8d5c187f7f5644bb628e32880bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428fa79f598f5a0353cf3740f1b4c52') in 0.001044 seconds
+  Import took 0.007990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.558393 seconds.
+  path: Assets/_Course Library/Scripts/EnemyMovementScripts
+  artifactKey: Guid(169df70b4a49d477fa3e170521e01229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Scripts/EnemyMovementScripts using Guid(169df70b4a49d477fa3e170521e01229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4f390a6891cc769c092478d877a32') in 0.006724 seconds
+  Import took 0.012116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.097 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2967 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.3 MB.
+System memory in use after: 248.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3641.
+Total: 3.603875 ms (FindLiveObjects: 0.241208 ms CreateObjectMapping: 0.065042 ms MarkObjects: 3.271292 ms  DeleteObjects: 0.025291 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.072 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2967 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.8 MB.
+System memory in use after: 249.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3645.
+Total: 1.832625 ms (FindLiveObjects: 0.231333 ms CreateObjectMapping: 0.070583 ms MarkObjects: 1.505708 ms  DeleteObjects: 0.024125 ms)
+
