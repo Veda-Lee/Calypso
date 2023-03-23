@@ -13,15 +13,15 @@ public class playerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         public void TakeDamage(int damage)
-    {
-        health -= damage;
+    //      public void TakeDamage(int damage)
+    // {
+    //     health -= damage;
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
-    private void DestroyEnemy()
-    {
-        Destroy(gameObject);
-    }
+    //     if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
+    // }
+    // private void DestroyEnemy()
+    // {
+    //     Destroy(gameObject);
+    // }
     }
 }
