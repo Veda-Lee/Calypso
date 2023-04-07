@@ -8,738 +8,154 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/VELEE/Documents/GitHub/Calypso/Calypso Horror Game/Calypso
+/Users/VELEE/Documents/GitHub/Calypso/Calypso
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52117
-Successfully changed project path to: /Users/VELEE/Documents/GitHub/Calypso/Calypso Horror Game/Calypso
-Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/VELEE/Documents/GitHub/Calypso/Calypso Horror Game/Calypso
+58259
+Successfully changed project path to: /Users/VELEE/Documents/GitHub/Calypso/Calypso
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/VELEE/Documents/GitHub/Calypso/Calypso
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/VELEE/Documents/GitHub/Calypso/Calypso Horror Game/Calypso/Assets
+[Subsystems] Discovering subsystems at path /Users/VELEE/Documents/GitHub/Calypso/Calypso/Assets
 GfxDevice: creating device client; threaded=0
-2023-03-21 10:06:22.486 Unity[20314:505916] (null) preferred device: Apple M1 (high power)
-2023-03-21 10:06:22.486 Unity[20314:505916] Metal devices available: 1
-2023-03-21 10:06:22.486 Unity[20314:505916] 0: Apple M1 (high power)
-2023-03-21 10:06:22.487 Unity[20314:505916] Using device Apple M1 (high power)
+2023-04-07 13:32:13.506 Unity[73312:1774000] (null) preferred device: Apple M1 (high power)
+2023-04-07 13:32:13.506 Unity[73312:1774000] Metal devices available: 1
+2023-04-07 13:32:13.506 Unity[73312:1774000] 0: Apple M1 (high power)
+2023-04-07 13:32:13.507 Unity[73312:1774000] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56314
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002216 seconds.
+Registered in 0.000805 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 61.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 67.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.650 seconds
+- Completed reload, in  1.686 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004108 seconds.
+Registered in 0.003721 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 61.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 68.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.099 seconds
+- Completed reload, in  2.144 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 234.4 MB.
-System memory in use after: 234.5 MB.
+Unloading 3505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.1 MB.
+System memory in use after: 235.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3940.
-Total: 2.097792 ms (FindLiveObjects: 0.263958 ms CreateObjectMapping: 0.165000 ms MarkObjects: 1.571708 ms  DeleteObjects: 0.096125 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Low-Poly 3D Lockers
-  artifactKey: Guid(09385132cd8cc134cab208d3bcb627fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers using Guid(09385132cd8cc134cab208d3bcb627fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b775a6b662277cd576cdb6c666809302') in 0.009767 seconds
-  Import took 0.015165 seconds .
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3941.
+Total: 2.013625 ms (FindLiveObjects: 0.276958 ms CreateObjectMapping: 0.103333 ms MarkObjects: 1.530459 ms  DeleteObjects: 0.102083 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/_Course Library/Models
-  artifactKey: Guid(5483bd07cb167e249a75847ab7cbd8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Models using Guid(5483bd07cb167e249a75847ab7cbd8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb360a5b9ffecf527cd97269cb41ffe') in 0.000973 seconds
-  Import took 0.005409 seconds .
+  path: Assets/_Course Library/Scripts/EnemyMovementScripts/Patrol.cs
+  artifactKey: Guid(c8727e399fef349cd9584b10c9e70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Scripts/EnemyMovementScripts/Patrol.cs using Guid(c8727e399fef349cd9584b10c9e70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c999565f703b72c4f1f5bb2cec1fc77e') in 0.213712 seconds
+  Import took 0.219484 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.105198 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers
-  artifactKey: Guid(14cf11b7fb667fb45818206410258923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers using Guid(14cf11b7fb667fb45818206410258923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5673b5e0d79f3a12471c5ea67872c') in 0.001013 seconds
-  Import took 0.008029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.814918 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials
-  artifactKey: Guid(5d8990c4a3d57984891bbc8e95ad2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials using Guid(5d8990c4a3d57984891bbc8e95ad2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76102f0f15ac27336376093cdad3334') in 0.001626 seconds
-  Import took 0.008443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113612 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/Ground (Destroy).mat
-  artifactKey: Guid(d8fd0d14fe7b1f24c94640e404ca4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/Ground (Destroy).mat using Guid(d8fd0d14fe7b1f24c94640e404ca4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb72d918c54b16d19527dc027f70306') in 0.984808 seconds
-  Import took 0.992051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.C.C.mat
-  artifactKey: Guid(491a1c751c894c5429e70990fdc1cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.C.C.mat using Guid(491a1c751c894c5429e70990fdc1cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c7817f68d88dc5c23f5cd590177407') in 0.047877 seconds
-  Import took 0.053392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/metal box.mat
-  artifactKey: Guid(15ce3544cb191454296aab0492da17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/metal box.mat using Guid(15ce3544cb191454296aab0492da17b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e0b26ff9d4f9668c4210bbfe93b742') in 0.038377 seconds
-  Import took 0.043351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/rack.mat
-  artifactKey: Guid(3cc03fc79a73f1f4fa94fff3aa859b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/rack.mat using Guid(3cc03fc79a73f1f4fa94fff3aa859b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f80c996eb8387dc0a8dcc08c076fa4') in 0.026214 seconds
-  Import took 0.031622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.O.C.mat
-  artifactKey: Guid(6dae042c8437f684fbe5040af5156804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.O.C.mat using Guid(6dae042c8437f684fbe5040af5156804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c527026db16a14b1aeb4dd976d642f54') in 0.027498 seconds
-  Import took 0.032827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.W.O.C.mat
-  artifactKey: Guid(4264e40db75e9754a873ec2bd41de6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Materials/M.W.O.C.mat using Guid(4264e40db75e9754a873ec2bd41de6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89592c60ab02b99377e786602598429') in 0.022276 seconds
-  Import took 0.027392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.739393 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures
-  artifactKey: Guid(f96c376c8161616419adc7f909058cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures using Guid(f96c376c8161616419adc7f909058cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04562f1dc9862bbaa545252900dfe71') in 0.000996 seconds
-  Import took 0.007536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000753 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures
-  artifactKey: Guid(f96c376c8161616419adc7f909058cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures using Guid(f96c376c8161616419adc7f909058cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04562f1dc9862bbaa545252900dfe71') in 0.000762 seconds
-  Import took 0.006384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.456111 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs
-  artifactKey: Guid(6c3e58b8888ef3b4da352ea5defcb5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs using Guid(6c3e58b8888ef3b4da352ea5defcb5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f598f5ba5c354601d3fcccf43d3b87') in 0.001084 seconds
-  Import took 0.008102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056744 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.C.C Odj.prefab
-  artifactKey: Guid(aacfc2522827bf14396f2e35ad210858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.C.C Odj.prefab using Guid(aacfc2522827bf14396f2e35ad210858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b4f619a2ac4a43f0f477bbdcf705b7') in 0.096626 seconds
-  Import took 0.102354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.O.C.prefab
-  artifactKey: Guid(adea1f5c156322642a5577e011772b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.O.C.prefab using Guid(adea1f5c156322642a5577e011772b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3caea5e3cc062acc1a455f4c83fac9') in 0.019279 seconds
-  Import took 0.024250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.W.O.C.prefab
-  artifactKey: Guid(592715beeb3def94bb61f4f83e36ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.W.O.C.prefab using Guid(592715beeb3def94bb61f4f83e36ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2cfd3f747cadf1ba0dfdb524cab89') in 0.016970 seconds
-  Import took 0.021994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/metal box.prefab
-  artifactKey: Guid(b7231302a91318f4c9a2ff753d90fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/metal box.prefab using Guid(b7231302a91318f4c9a2ff753d90fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2a98723c1c0d82728a6e5573b4ed0') in 0.016060 seconds
-  Import took 0.020568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.O.C Obj.prefab
-  artifactKey: Guid(a05f9465b99e3474a84afe9090b5f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.O.C Obj.prefab using Guid(a05f9465b99e3474a84afe9090b5f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e099ea81b97ae173845e1df645ae9ec8') in 0.016311 seconds
-  Import took 0.021181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/rack Obj.prefab
-  artifactKey: Guid(151e99305d81735429c52b5ab842d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/rack Obj.prefab using Guid(151e99305d81735429c52b5ab842d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595febe3446111e600e9c64d27ce5943') in 0.016853 seconds
-  Import took 0.022670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/rack.prefab
-  artifactKey: Guid(191706c323b2ed34f9336013395c730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/rack.prefab using Guid(191706c323b2ed34f9336013395c730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c908d34086968dc96fc42a787b002a2') in 0.016079 seconds
-  Import took 0.020868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.W.O.C Obj.prefab
-  artifactKey: Guid(a99f23b840c78c747ab9019bc11a3f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.W.O.C Obj.prefab using Guid(a99f23b840c78c747ab9019bc11a3f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de57c6bbe73d10bce6a1446244d619c1') in 0.016045 seconds
-  Import took 0.020785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.C.C.prefab
-  artifactKey: Guid(2b23fd819e8890e4bae6782feabf3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/M.C.C.prefab using Guid(2b23fd819e8890e4bae6782feabf3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3072b7270fed9644a743c4cf80b9b54') in 0.016758 seconds
-  Import took 0.021446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/metal box Obj.prefab
-  artifactKey: Guid(ff0d0357f71667b48ac3b9654a536ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Prefabs/metal box Obj.prefab using Guid(ff0d0357f71667b48ac3b9654a536ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fe26adc902209dd9ea82c0bff4f39d') in 0.015698 seconds
-  Import took 0.021244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.072813 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/3D Lockers Demo.unity
-  artifactKey: Guid(83f3f04c2d0758041b4adfd6b69019f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/3D Lockers Demo.unity using Guid(83f3f04c2d0758041b4adfd6b69019f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771c84050ae6414d4175ad8d209a0bdf') in 0.002001 seconds
-  Import took 0.007778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.458090 seconds.
-  path: Assets/_Course Library/_Prefabs
-  artifactKey: Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs using Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb1e926933c0539cd115b9bd21cc67') in 0.000832 seconds
-  Import took 0.006792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.870395 seconds.
-  path: Assets/Scenes/Calypso
-  artifactKey: Guid(df5567ef68e9f4e4da15860f9fa81c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Calypso using Guid(df5567ef68e9f4e4da15860f9fa81c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f362c904623fb32bbb9e14c6e10cea05') in 0.002401 seconds
-  Import took 0.009751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.818970 seconds.
-  path: Assets/Scenes/Calypso/NavMesh-NavMeshAgent.asset
-  artifactKey: Guid(6133454a8179f4e018e581d3df15b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Calypso/NavMesh-NavMeshAgent.asset using Guid(6133454a8179f4e018e581d3df15b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d291c906f15caed5cac9fd0cdfffd45') in 0.061684 seconds
-  Import took 0.068018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Scenes/Calypso/NavMesh.asset
-  artifactKey: Guid(be70c64fa05124675b63d2f88f0e7c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Calypso/NavMesh.asset using Guid(be70c64fa05124675b63d2f88f0e7c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6087873c42a6e29f55df75adc1f2684') in 0.002139 seconds
-  Import took 0.006560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.840377 seconds.
-  path: Assets/Scenes/Calypso.unity
-  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Calypso.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99290b47a09a4fe894fa22d0a6308278') in 0.001443 seconds
-  Import took 0.007320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.005912 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh
-  artifactKey: Guid(b1f1f9f93916879419c33564d7922acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh using Guid(b1f1f9f93916879419c33564d7922acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36bce7f7e4d2afb52137428d8e2163') in 0.001098 seconds
-  Import took 0.008184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074139 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.C.C.fbx
-  artifactKey: Guid(6643561de03c7f44a8c4ee8f0e56b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.C.C.fbx using Guid(6643561de03c7f44a8c4ee8f0e56b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa612b5de107ad1168efb13cb0aec4') in 0.126580 seconds
-  Import took 0.132251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/metal box.fbx
-  artifactKey: Guid(78c5364cf7b06ec49b540f20ea991b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/metal box.fbx using Guid(78c5364cf7b06ec49b540f20ea991b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604fc0dbff318325cd00e9154dbe384e') in 0.026858 seconds
-  Import took 0.031653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/rack.obj
-  artifactKey: Guid(45d4fed9a60858e419b5162f5d6e76df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/rack.obj using Guid(45d4fed9a60858e419b5162f5d6e76df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557e34ca66977c0b75f9f19cae31f267') in 1.046908 seconds
-  Import took 1.051744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/rack.fbx
-  artifactKey: Guid(a09c087a0c01769439805c9b0e53ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/rack.fbx using Guid(a09c087a0c01769439805c9b0e53ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81a5dcb9876aebe2db6f3d9513d040b') in 0.025080 seconds
-  Import took 0.029956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/metal box.obj
-  artifactKey: Guid(a5827f963d4538d4d8d646702db84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/metal box.obj using Guid(a5827f963d4538d4d8d646702db84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d32a464b1049a7c7497a1b83bf151cc') in 0.025629 seconds
-  Import took 0.030717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.W.O.C.obj
-  artifactKey: Guid(fabb0ad797e6f0d43bd3579b60878cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.W.O.C.obj using Guid(fabb0ad797e6f0d43bd3579b60878cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff86a902d89148c74a4d8cb834e3c3e2') in 0.019079 seconds
-  Import took 0.023663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.C.C.obj
-  artifactKey: Guid(8ec3e844289b3a54eb4e0f934012d667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.C.C.obj using Guid(8ec3e844289b3a54eb4e0f934012d667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbfb46a0b228b3071b9878bf3538cf5') in 0.017511 seconds
-  Import took 0.021869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.W.O.C.fbx
-  artifactKey: Guid(be8057a8851eb9744abca4d45d8116b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.W.O.C.fbx using Guid(be8057a8851eb9744abca4d45d8116b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf386a25263e38bcee98e222bebf9ab') in 0.035477 seconds
-  Import took 0.040844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.O.C.fbx
-  artifactKey: Guid(f0376ffbc64ed2a4cb7c2ea340bbb0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.O.C.fbx using Guid(f0376ffbc64ed2a4cb7c2ea340bbb0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b319eae20d0a1e4456369b5b39d6ea2f') in 0.035133 seconds
-  Import took 0.040294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.O.C.obj
-  artifactKey: Guid(88bd22dc8ad8e2547858e9f0ff35edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Mesh/M.O.C.obj using Guid(88bd22dc8ad8e2547858e9f0ff35edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aa7c2df5fbe7000aac7d6a59c67ae2') in 0.020038 seconds
-  Import took 0.024677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.339396 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C
-  artifactKey: Guid(d3d88b3a685eaef4aa98721042cc7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C using Guid(d3d88b3a685eaef4aa98721042cc7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554428cdbc36c4a135ab2869a667be0c') in 0.001074 seconds
-  Import took 0.008268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019966 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Albedo M.C.C.png
-  artifactKey: Guid(f1f852ff610891e419c3cb96c091890f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Albedo M.C.C.png using Guid(f1f852ff610891e419c3cb96c091890f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f9c4ce7034f9340daeb679a577000a') in 0.415345 seconds
-  Import took 0.421193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Metall M.C.C.png
-  artifactKey: Guid(2eaff4e7933f2624c892adf828b4b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Metall M.C.C.png using Guid(2eaff4e7933f2624c892adf828b4b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ac4481b6b64493fd22129c8d0a1052') in 0.009180 seconds
-  Import took 0.013859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/M.C.C Roughness.png
-  artifactKey: Guid(4f8cb9c3bbb32b44a89fd457dfaf27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/M.C.C Roughness.png using Guid(4f8cb9c3bbb32b44a89fd457dfaf27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fad2ca8ecff8180e7fec2ac94143cf0') in 0.008011 seconds
-  Import took 0.012578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/AO M.C.C.png
-  artifactKey: Guid(a78f29dd9278b604fbae18d8251795e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/AO M.C.C.png using Guid(a78f29dd9278b604fbae18d8251795e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaeb02582fc5dee88464232cfdce17f') in 0.007584 seconds
-  Import took 0.012219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Normal M.C.C.png
-  artifactKey: Guid(b2b0d38820e24f54da7dd59d34b8c735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Normal M.C.C.png using Guid(b2b0d38820e24f54da7dd59d34b8c735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08221eeddf10a2ee8a8cf1d5c8c0585b') in 0.039283 seconds
-  Import took 0.043906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043372 seconds.
-  path: Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Albedo M.C.C.png
-  artifactKey: Guid(f1f852ff610891e419c3cb96c091890f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low-Poly 3D Lockers/Low-Poly 3D Lockers/Textures/M.C.C/Albedo M.C.C.png using Guid(f1f852ff610891e419c3cb96c091890f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f9c4ce7034f9340daeb679a577000a') in 0.007787 seconds
-  Import took 0.012933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.394421 seconds.
-  path: Assets/_Course Library/Textures/Icon_Close.png
-  artifactKey: Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Textures/Icon_Close.png using Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368eeec415265d2be4bf1c077ba741c3') in 0.068665 seconds
-  Import took 0.096403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.552236 seconds.
-  path: Assets/_Course Library
-  artifactKey: Guid(8c8d914a1d5c8496c93eb389dab42fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library using Guid(8c8d914a1d5c8496c93eb389dab42fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f52d9bf361784a47e43d33ff1815259') in 0.001051 seconds
-  Import took 0.007765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.481942 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage
-  artifactKey: Guid(f8e9d7c214ea04efab617583a3b27541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage using Guid(f8e9d7c214ea04efab617583a3b27541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bfd9338127e616295c1e7bfe1ac9e5') in 0.001142 seconds
-  Import took 0.007758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052042 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab
-  artifactKey: Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab using Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d1988f31d59a3fa9f808abc5c180ec') in 0.022657 seconds
-  Import took 0.028019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab
-  artifactKey: Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab using Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd64424ab0987539a081d6ba5233b25') in 0.011728 seconds
-  Import took 0.016703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Chest_Traditional.prefab
-  artifactKey: Guid(8197e8d854c12244184c7c0f390c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Traditional.prefab using Guid(8197e8d854c12244184c7c0f390c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0efcf6931821043012f693c6bb3338') in 0.011046 seconds
-  Import took 0.016510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab
-  artifactKey: Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab using Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecea9dce63c12427d147e24a9d5e617') in 0.010319 seconds
-  Import took 0.015086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab
-  artifactKey: Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab using Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efb53fe81a173f5e734228cc9b58bd7') in 0.011677 seconds
-  Import took 0.016491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab
-  artifactKey: Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab using Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02613dcaf9b2371d72793280050d18f') in 0.010068 seconds
-  Import took 0.014418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Traditional.prefab
-  artifactKey: Guid(bdf455b16ebfb444e8f26045732453b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Traditional.prefab using Guid(bdf455b16ebfb444e8f26045732453b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51696db83e6ac80c0432bf5fadc878c9') in 0.024198 seconds
-  Import took 0.029099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab
-  artifactKey: Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab using Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d8624244e3a57e4b4ea50e95cb8069') in 0.012036 seconds
-  Import took 0.016795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab
-  artifactKey: Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab using Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83414abeed534227d826e7e09e15ad02') in 0.010013 seconds
-  Import took 0.014488 seconds .
+  Time since last request: 854.946736 seconds.
+  path: Assets/_Course Library/Scripts/EnemyMovementScripts/Patrol.cs
+  artifactKey: Guid(c8727e399fef349cd9584b10c9e70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Scripts/EnemyMovementScripts/Patrol.cs using Guid(c8727e399fef349cd9584b10c9e70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b845a7349c8fbc063986abaead6e93c') in 0.006276 seconds
+  Import took 0.034483 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005526 seconds.
+Registered in 0.004984 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.045 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.0 MB.
+System memory in use after: 231.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3945.
+Total: 2.214916 ms (FindLiveObjects: 0.369708 ms CreateObjectMapping: 0.082750 ms MarkObjects: 1.666375 ms  DeleteObjects: 0.095083 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.033 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.158 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3344 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 255.8 MB.
-System memory in use after: 256.0 MB.
+Unloading 3345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.7 MB.
+System memory in use after: 231.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4028.
-Total: 1.971958 ms (FindLiveObjects: 0.254084 ms CreateObjectMapping: 0.079209 ms MarkObjects: 1.533959 ms  DeleteObjects: 0.103750 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3949.
+Total: 1.961625 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.080875 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.068959 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006296 seconds.
+Registered in 0.006136 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.083 seconds
+- Completed reload, in  2.005 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3344 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 256.5 MB.
-System memory in use after: 256.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4032.
-Total: 1.981250 ms (FindLiveObjects: 0.256625 ms CreateObjectMapping: 0.076916 ms MarkObjects: 1.563750 ms  DeleteObjects: 0.082875 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1998.451446 seconds.
-  path: Assets/_Course Library/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.fbx
-  artifactKey: Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.fbx using Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e59ce94b7eda9533d30403b4bb3d386') in 0.598952 seconds
-  Import took 0.619992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Button.prefab
-  artifactKey: Guid(4350e15b07f2fc44483310bd26db1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button.prefab using Guid(4350e15b07f2fc44483310bd26db1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea44dc90ac18f796969d759319869b') in 0.029099 seconds
-  Import took 0.034318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Joystick.prefab
-  artifactKey: Guid(0952ab382e51745468fbfd655b1a4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Joystick.prefab using Guid(0952ab382e51745468fbfd655b1a4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6518f3f7ebc5a0f964409f97721fd5a4') in 0.021090 seconds
-  Import took 0.026476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab
-  artifactKey: Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab using Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5885104dfbf292def74c1ad2fa9e3e7') in 0.014119 seconds
-  Import took 0.019223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Knob.prefab
-  artifactKey: Guid(704ff36a9c354164f8eab01deabb38ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Knob.prefab using Guid(704ff36a9c354164f8eab01deabb38ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c302b58cc7056fde2df5983c2b8936') in 0.010161 seconds
-  Import took 0.015077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab
-  artifactKey: Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab using Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91e611e82257fdcacdb26367e86675') in 0.009975 seconds
-  Import took 0.014644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab
-  artifactKey: Guid(f23518a35037252409252c1ade394e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Pause.prefab using Guid(f23518a35037252409252c1ade394e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d74ccb3d8307e34d641e003d4f300') in 0.010152 seconds
-  Import took 0.014860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab
-  artifactKey: Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Button_Stop.prefab using Guid(091cd3f1c6fbcb840baf5816764a8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7b51fcf1caf901daf0d00e46ffa00c') in 0.009834 seconds
-  Import took 0.015005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/_Course Library/Models/Knob_1.fbx
-  artifactKey: Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Models/Knob_1.fbx using Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c148d074a99e05c919bcc56335659f4') in 0.052014 seconds
-  Import took 0.056626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab
-  artifactKey: Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab using Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c3500359ebc69152e9e442f2da210') in 0.015955 seconds
-  Import took 0.020620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab
-  artifactKey: Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab using Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aeed35a41b9c231f84e80ba08bbe77') in 0.009755 seconds
-  Import took 0.014924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/_Course Library/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.prefab
-  artifactKey: Guid(46d69f622d1354ee0820b7921e262b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/NavMeshComponents-master/Assets/Examples/Prefabs/BanyanTree.prefab using Guid(46d69f622d1354ee0820b7921e262b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c09ffe02a3dc5a95b708ccb3cc9f1b') in 0.011057 seconds
-  Import took 0.016356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.169448 seconds.
-  path: Assets/_Course Library/Models/VR_Reticle_1_A.fbx
-  artifactKey: Guid(307e23520cfd9f14d941b0f76117a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Models/VR_Reticle_1_A.fbx using Guid(307e23520cfd9f14d941b0f76117a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f85b1437c7d17ffe65397b46e024d8e') in 0.018136 seconds
-  Import took 0.024080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/_Course Library/Models/VR_Reticle_2_A.fbx
-  artifactKey: Guid(b277dae6d3c4d774d954c70940701b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Models/VR_Reticle_2_A.fbx using Guid(b277dae6d3c4d774d954c70940701b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6e89defba8c04300de01871c85b42c') in 0.015886 seconds
-  Import took 0.020740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab
-  artifactKey: Guid(493691fe396bc5c40900e8a234c5c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab using Guid(493691fe396bc5c40900e8a234c5c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3a9e571bf0b20412ed18ae2f67a7d3') in 0.012661 seconds
-  Import took 0.018252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Circular.prefab
-  artifactKey: Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Circular.prefab using Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d6fefec092e6b8875163a1239d0904') in 0.020147 seconds
-  Import took 0.025063 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.102 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3344 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 257.7 MB.
-System memory in use after: 257.9 MB.
+Unloading 3345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.4 MB.
+System memory in use after: 232.6 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4072.
-Total: 1.951666 ms (FindLiveObjects: 0.236417 ms CreateObjectMapping: 0.076750 ms MarkObjects: 1.550250 ms  DeleteObjects: 0.087458 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3953.
+Total: 2.071125 ms (FindLiveObjects: 0.304750 ms CreateObjectMapping: 0.082125 ms MarkObjects: 1.595750 ms  DeleteObjects: 0.087542 ms)
 
