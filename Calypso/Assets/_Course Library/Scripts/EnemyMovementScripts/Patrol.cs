@@ -8,6 +8,7 @@
         public Transform[] points;
         private int destPoint = 0;
         private NavMeshAgent agent;
+        private Transform player = null;
 
         void Start () {
             agent = GetComponent<NavMeshAgent>();
@@ -25,15 +26,26 @@
             // Returns if no points have been set up
             if (points.Length == 0)
                 return;
-
-            // Set the agent to go to the currently selected destination.
+            if (player != null){
+                agent.destination = player.transform.position;
+            }
+            else{
+                // Set the agent to go to the currently selected destination.
             agent.destination = points[destPoint].position;
 
             // Choose the next point in the array as the destination,
             // cycling to the start if necessary.
             destPoint = (destPoint + 1) % points.Length;
+            }
         }
 
+        void OnTriggerEnter(Collider other){
+            if (other.gameObject.tag == "whatIsPlayer"){
+            Debug.Log(other.gameObject.name);
+            player = other.transform;
+            GotoNextPoint();
+            }
+        }
 
         void Update () {
             // Choose the next destination point when the agent gets

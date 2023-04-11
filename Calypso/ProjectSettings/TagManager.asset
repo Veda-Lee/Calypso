@@ -6,6 +6,7 @@ TagManager:
   tags:
   - whatIsPlayer
   - whatIsGround
+  - Enemy
   layers:
   - Default
   - TransparentFX
