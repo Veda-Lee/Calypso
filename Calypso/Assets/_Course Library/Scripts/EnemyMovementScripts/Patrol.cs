@@ -30,7 +30,7 @@
                 agent.destination = player.transform.position;
             }
             else{
-                // Set the agent to go to the currently selected destination.
+                // Set the agent to go follow the player
             agent.destination = points[destPoint].position;
 
             // Choose the next point in the array as the destination,
