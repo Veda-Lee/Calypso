@@ -5,18 +5,18 @@ using TMPro;
 
 public class CollisionDetection : MonoBehaviour
 {
-    private int health;
+    private int health = 100;
     public TextMeshProUGUI healthText;
 
     // Start is called before the first frame update
     void Start()
     {
-        UpdateHealth(100);
+
     }
 
 void onTriggerEnter(Collider other){
-    if (other.gameObject.tag == "gameOverCollision" <= other.transform.tag == "whatIsEnemy") {
-       UpdateHealth(-100);
+    if (other.gameObject.tag == "gameOverCollision") {
+       UpdateHealth(-health);
     }
 }
 
@@ -24,18 +24,18 @@ public void UpdateHealth(int healthToSubtract){
     health -= healthToSubtract;
     if (health <= 0) 
     {
-        Invoke(nameof(Destroy(other.transform.tag == "whatIsEnemy")), 0.5f);
+        
         healthText.text = "Health: " + health;
     
     }
-    
 }
-    //     
 
     // Update is called once per frame
     void Update()
     {
-        
+     //if (gameObject.tag == "whatIsPlayer".position <= gameObject.tag == "gameOverCollision".position){
+        UpdateHealth(health);
+    // }
         
     }
 }
