@@ -7,8 +7,8 @@ public class CollisionDetection : MonoBehaviour
 {
     private int health = 100;
     public TextMeshProUGUI healthText;
+    public TextMeshProUGUI gameOverText;
     private Transform player = null;
-    private Transform enemy = null;
 
     // Start is called before the first frame update
     void Start()
@@ -16,33 +16,40 @@ public class CollisionDetection : MonoBehaviour
         UpdateHealth(health);
     }
 
-//  void onTriggerEnter(Collider other){
-//      if (other.gameObject.tag == "gameOverCollision") {
-// //       UpdateHealth(health);
-//         Debug.Log("collision detected");
-//    }
-//    else{
-//         Debug.Log("No collision detected");
-//    }
-//  }
+void OnTriggerEnter(Collider other){
+        if (other.gameObject.tag == "gameOverCollision"){
+         //   Debug.Log(other.gameObject.tag);
+            player = other.transform;
+            UpdateHealth(health);
+            }
+        }
 
  public void UpdateHealth(int healthToSubtract){
-    //  if (player.transform.position != null){
-    //     health -= healthToSubtract;
-    //     healthText.text = "Health: " + health;
-    //  }
-    //  else{
+    healthToSubtract = 100;
+     if (player.transform.position != null){
+       // Debug.Log(health);
+         health -= healthToSubtract;
+         healthText.text = "Health: " + health;
+         GameOver();
+     }
+     else{
         healthText.text = "Health: " + health;
-    // }
-//     
+     }
+}
+
+void GameOver(){
+    if (health < 0){
+        gameOverText.text = "";
+        Debug.Log(player);
+    }
+    else{
+
+    }
 }
 
     // Update is called once per frame
     void Update()
     {
-     //if (gameObject.tag == "whatIsPlayer".position <= gameObject.tag == "gameOverCollision".position){
-
-    // }
         
     }
 }
