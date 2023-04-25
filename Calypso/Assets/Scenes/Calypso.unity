@@ -162,7 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1487704658}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 41352509}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3309,19 +3310,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1944104683, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1944104683, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Size.y
       value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1944104683, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
+      propertyPath: m_Center.x
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944104683, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Center.z
-      value: 0.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2017731525, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017731525, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2017731526, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3357,15 +3366,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2017731527, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 2017731527, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Size.z
-      value: 0.15
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017731527, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017731527, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
+      propertyPath: m_Center.x
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 2017731527, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Center.z
-      value: 0.12
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3433463217469185506, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}
       propertyPath: m_Layer
@@ -4237,6 +4254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704116016}
   - component: {fileID: 1704116017}
+  - component: {fileID: 1704116018}
   m_Layer: 0
   m_Name: Closet_Teleporter
   m_TagString: Untagged
@@ -4271,6 +4289,78 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1704116018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704116015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1487704658}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_TeleportationProvider: {fileID: 0}
+  m_MatchOrientation: 0
+  m_TeleportTrigger: 0
 --- !u!1 &1756162055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3741405440352535280, guid: f7a65282a054cc846acdcfc67d1fcb9b, type: 3}

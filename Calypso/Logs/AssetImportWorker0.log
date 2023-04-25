@@ -127,3 +127,27 @@ System memory in use after: 232.0 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3951.
 Total: 2.182959 ms (FindLiveObjects: 0.246542 ms CreateObjectMapping: 0.084875 ms MarkObjects: 1.766291 ms  DeleteObjects: 0.084125 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.5 MB.
+System memory in use after: 232.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3955.
+Total: 2.027875 ms (FindLiveObjects: 0.269125 ms CreateObjectMapping: 0.079208 ms MarkObjects: 1.601125 ms  DeleteObjects: 0.077500 ms)
+
