@@ -26,7 +26,8 @@ void OnTriggerEnter(Collider other){
 
  public void UpdateHealth(int healthToSubtract){
     healthToSubtract = 100;
-     if (player.transform.position != null){
+    healthText.text = "Health: " + health;
+     if (player != null){
        // Debug.Log(health);
          health -= healthToSubtract;
          healthText.text = "Health: " + health;
