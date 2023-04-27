@@ -8,6 +8,7 @@ TagManager:
   - whatIsGround
   - Enemy
   - gameOverCollision
+  - rigidbodyCollider
   layers:
   - Default
   - TransparentFX
