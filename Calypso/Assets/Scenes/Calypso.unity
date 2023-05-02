@@ -2471,6 +2471,7 @@ GameObject:
   - component: {fileID: 505562325}
   - component: {fileID: 505562326}
   - component: {fileID: 505562327}
+  - component: {fileID: 505562328}
   m_Layer: 3
   m_Name: XR Rig
   m_TagString: whatIsPlayer
@@ -2504,7 +2505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505562319}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.37, y: -2.14, z: 3.55}
+  m_LocalPosition: {x: -1.37, y: -3.54, z: -5.1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 235308783}
@@ -2621,6 +2622,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 160111109}
   gameOverText: {fileID: 173885144}
+  EndMenu: {fileID: 1788147633}
+--- !u!114 &505562328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505562319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39be8aed4703f4a268c8c0bdf7f8367f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &567334454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,7 +3123,7 @@ RectTransform:
   m_GameObject: {fileID: 703235449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.586379}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1576483537}
   m_Father: {fileID: 1280889181}
@@ -3117,7 +3131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.61993146, y: -2.6049821}
+  m_AnchoredPosition: {x: -0.61993146, y: 2.1}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &858109988
@@ -3558,9 +3572,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'instructions
-
-'
+  m_text: "Welcome to \nCalypso\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4688,7 +4700,7 @@ RectTransform:
   m_GameObject: {fileID: 1788147633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.586379}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1701788702}
   m_Father: {fileID: 1280889181}
@@ -4696,8 +4708,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.61993146, y: -2.6049821}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -0.61993146, y: 3.4}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2053389726 stripped
 GameObject:
