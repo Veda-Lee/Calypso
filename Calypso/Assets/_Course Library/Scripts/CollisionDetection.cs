@@ -9,6 +9,7 @@ public class CollisionDetection : MonoBehaviour
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI gameOverText;
     private Transform player = null;
+    public GameObject EndMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -39,9 +40,11 @@ void OnTriggerEnter(Collider other){
 }
 
 void GameOver(){
-    if (health < 0){
-        gameOverText.text = "";
+    if (health <= 0){
+        EndMenu.SetActive(true);
+      //  gameOverText.text=""+gameOverText;
         Debug.Log(player);
+
     }
     else{
 
@@ -51,6 +54,6 @@ void GameOver(){
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }
