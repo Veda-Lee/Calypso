@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CollisionDetection : MonoBehaviour
 {
@@ -44,13 +45,17 @@ void GameOver(){
         EndMenu.SetActive(true);
       //  gameOverText.text=""+gameOverText;
         Debug.Log(player);
+        ResetTheGame();
 
     }
     else{
 
     }
 }
-
+    public void ResetTheGame(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        print("Button working");
+    }
     // Update is called once per frame
     void Update()
     {
