@@ -11,11 +11,13 @@ public class CollisionDetection : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     private Transform player = null;
     public GameObject EndMenu;
+    public bool isGameActive;
 
     // Start is called before the first frame update
     void Start()
     {
         UpdateHealth(health);
+        isGameActive = true;
     }
 
 void OnTriggerEnter(Collider other){
@@ -55,7 +57,10 @@ void GameOver(){
     public void ResetTheGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         print("Button working");
+        isGameActive = false;
     }
+
+   
     // Update is called once per frame
     void Update()
     {
