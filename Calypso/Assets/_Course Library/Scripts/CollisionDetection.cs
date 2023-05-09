@@ -11,13 +11,12 @@ public class CollisionDetection : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     private Transform player = null;
     public GameObject EndMenu;
-    public bool isGameActive;
+    public GameObject Enemy;
 
     // Start is called before the first frame update
     void Start()
     {
         UpdateHealth(health);
-        isGameActive = true;
     }
 
 void OnTriggerEnter(Collider other){
@@ -47,18 +46,19 @@ void GameOver(){
         EndMenu.SetActive(true);
       //  gameOverText.text=""+gameOverText;
         Debug.Log(player);
-        ResetTheGame();
-
+       // ResetTheGame();
+        // GameObject.tag.Find("Enemy").GetComponent<Patrol>().enabled = false;
     }
     else{
 
     }
 }
-    public void ResetTheGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        print("Button working");
-        isGameActive = false;
-    }
+    // public void ResetTheGame(){
+        
+    //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    //     print("Button working");
+    //     isGameActive = false;
+    // }
 
    
     // Update is called once per frame
