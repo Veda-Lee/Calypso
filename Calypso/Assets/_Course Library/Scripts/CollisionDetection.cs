@@ -28,7 +28,7 @@ void OnTriggerEnter(Collider other){
         }
 
  public void UpdateHealth(int healthToSubtract){
-    healthToSubtract = 100;
+    healthToSubtract = 50;
     healthText.text = "Health: " + health;
      if (player != null){
        // Debug.Log(health);
@@ -59,7 +59,6 @@ void GameOver(){
     //     print("Button working");
     //     isGameActive = false;
     // }
-
    
     // Update is called once per frame
     void Update()
